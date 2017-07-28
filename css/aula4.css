@@ -1,0 +1,39 @@
+        img, table {
+            width: 185px;
+            border: 15px black; 
+        }
+        fieldset {
+            width: 170px;
+         } 
+        label {
+            display:block;
+            float: left; 
+        } 
+        label, input {
+            text-align: right;
+            margin: 1px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            font-size: 0.8em; 
+        }  
+        a {
+            background-color: #C0262c;
+            border: none;
+            border-radius: 0px; 
+            font-size: 1.1em;
+            color: #fff; 
+            text-decoration: none;
+            padding: 10px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px #000;
+            cursor: pointer;
+         }  
+         input#resultado {
+            background-color: transparent;
+            font-size: 1em;
+            color: blue;
+            border: none;
+            width: 137px;
+        }
+      

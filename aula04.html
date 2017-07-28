@@ -13,7 +13,8 @@
         <!--Formulário para inserção dos dados-->
        <fieldset>
            
-        	<legend>Calculadora de IMC </legend>
+            <legend>Calculadora de IMC </legend>
+            <img src="imagens/imc.png" />
 
             <form action="aula4.html" method="get" id="formulario" align="justify">
             
@@ -27,16 +28,16 @@
                 <label for="peso">Peso: </label>
                 <input type="text" name="peso"/><br /> <br />
 
-                <label for="altura">Altura (m): </label>
-                <input type="text" name="alturaM"/><br /> <br />
-
-                <label for="altura">Altura (cm): </label>
-                <input type="text" name="alturaC"/><br /> <br />
+                <label for="altura">Altura: </label>
+                <input type="text" name="altura"/><br /> <br />
 
                 <label for="imc">IMC: </label>
                 <input type="text" name="imc"/><br /> <br />
 
-                <input type="submit" name="calcular" />
+                <label for="resultado">Resultado: </label>
+                <input type="text" name="resultado" disabled="disabled"/><br /> <br />
+
+                <a href="#" onclick="calcularIMC();">Calcular</a>
 
             </form>
 
